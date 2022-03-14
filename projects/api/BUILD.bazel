@@ -4,7 +4,7 @@ py_binary(
   name = "api",
   srcs = ["api.py"],
   deps = [
-    requirement("fastapi")
+    # requirement("fastapi")
     # "//projects/python_calculator:calculator"
   ],
 )
