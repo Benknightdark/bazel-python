@@ -1,0 +1,10 @@
+load("@python_deps//:requirements.bzl", "requirement")
+
+py_binary(
+  name = "api",
+  srcs = ["api.py"],
+  deps = [
+    requirement("fastapi")
+    # "//projects/python_calculator:calculator"
+  ],
+)
